@@ -2,7 +2,7 @@ import { useNavigate } from "react-router";
 const Banner = () => {
   const navigate = useNavigate();
   const handleClick = () => {
-    navigate("/Contact");
+    navigate("/Divine-portfolio/Contact");
   };
 
   return (
