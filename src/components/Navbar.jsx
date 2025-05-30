@@ -2,17 +2,17 @@ function Navbar() {
   const nav_links = [
     {
       name: "Home",
-      link: "/",
+      link: "/Divine-Portfolio/",
       label: "home",
     },
     {
       name: "About Me",
-      link: "/About",
+      link: "/Divine-Portfolio/About",
       label: "About Me",
     },
     {
       name: "Projects",
-      link: "/Projects",
+      link: "/Divine-Portfolio/Projects",
       label: "Projects",
     },
   ];
