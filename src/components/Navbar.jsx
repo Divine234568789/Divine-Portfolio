@@ -1,0 +1,44 @@
+function Navbar() {
+  const nav_links = [
+    {
+      name: "Home",
+      link: "/",
+      label: "home",
+    },
+    {
+      name: "About Me",
+      link: "/About",
+      label: "About Me",
+    },
+    {
+      name: "Projects",
+      link: "/Projects",
+      label: "Projects",
+    },
+  ];
+  return (
+    <div className="">
+      <div className="flex justify-between w-full items-center  p-5">
+        <div className="flex">
+          <img src="/Logo.png" alt="" height={15} width={20} />
+          <span className=" font-bold text-2xl">Divine</span>
+        </div>
+        <div className="nav-links pointer-events-auto">
+          <ul className="flex gap-15 ">
+            {nav_links.map((nav_link) => {
+              return (
+                <li key={nav_link.label}>
+                  <a href={nav_link.link} className="font-semibold">
+                    {nav_link.name}
+                  </a>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default Navbar;
