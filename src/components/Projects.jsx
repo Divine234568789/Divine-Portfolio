@@ -67,7 +67,9 @@ const Projects = () => {
                   {" "}
                   {project.title}
                 </h3>
-                <p className="text-center text-sm pb-5">{project.description}</p>
+                <p className="text-center text-sm pb-5">
+                  {project.description}
+                </p>
                 <div className="flex justify-between items-center">
                   <a
                     href={project.demoUrl}
@@ -86,7 +88,6 @@ const Projects = () => {
                   <div className="flex space-x-3"></div>
                 </div>
               </div>
-              
             </div>
           ))}
         </div>
