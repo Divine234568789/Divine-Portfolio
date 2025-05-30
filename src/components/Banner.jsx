@@ -27,9 +27,9 @@ const Banner = () => {
           </button>
         </div>
         <div className="ml-30">
-          <img src="/me.png" alt="" className="ml-30 mt-14 " />
+          <img src="public/me.png" alt="" className="ml-30 mt-14 " />
           <img
-            src="/logo2.png"
+            src="public/logo2.png"
             alt=""
             className="ml-43 bottom-75 relative -z-10"
           />

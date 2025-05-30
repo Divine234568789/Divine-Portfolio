@@ -34,7 +34,7 @@ const Aboutme = () => {
               alt=""
               className="relative top-80 left-50 z-10"
             />
-            <img src="/me2.png" alt="" className="bottom-15 relative" />
+            <img src="me2.png" alt="" className="bottom-15 relative" />
             <div className="bg-pink-500 w-90 h-0.5 bottom-15 relative"></div>
           </div>
         </div>
