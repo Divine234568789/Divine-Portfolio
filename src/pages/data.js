@@ -1,19 +1,19 @@
 export const contacts = [
   {
     label: "email",
-    Image: "public/email.png",
+    Image: "/img/email.png",
     description: "Mail Us",
     info: "anyanwudee@gmail.com",
   },
   {
     label: "phone",
-    Image: "public/phone.png",
+    Image: "/img/phone.png",
     description: "Contact Us",
     info: "+234 803-760-5458",
   },
   {
     label: "location",
-    Image: "public/location.png",
+    Image: "/img/location.png",
     description: "Location",
     info: "No.11 Abiodun Mustafa Street, Lagos Nigeria",
   },
