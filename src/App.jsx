@@ -1,9 +1,9 @@
-import Navbar from "./components/Navbar";
-import Banner from "./components/Banner";
-import Aboutme from "./components/Aboutme";
-import Contact from "./components/Contact";
+import Navbar from "./pages/Navbar";
+import Banner from "./pages/Banner";
+import Aboutme from "./pages/Aboutme";
+import Contact from "./pages/Contact";
 import { Route, Routes } from "react-router";
-import Projects from "./components/Projects";
+import Projects from "./pages/Projects";
 const App = () => {
   return (
     <div>
