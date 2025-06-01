@@ -41,7 +41,7 @@ function Navbar() {
           <nav>
       <Link to="/Divine-Portfolio/">Home</Link> |{" "}
       <Link to="/Divine-Portfolio/about">About</Link> |{" "}
-      <Link to="/Divine-Portfolio/contact">Contact</Link>
+      <Link to="/Divine-Portfolio/projects">Projects</Link>
     </nav>
     </div>
   );
