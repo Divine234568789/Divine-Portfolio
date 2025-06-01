@@ -28,13 +28,13 @@ const Aboutme = () => {
             </div>
           </div>
           <div className="ml-40">
-            <img src="/img/Dots.png" alt="" className="z-10 relative top-35" />
+            <img src="img/Dots.png" alt="" className="z-10 relative top-35" />
             <img
-              src="/img/Dots2.png"
+              src="img/Dots2.png"
               alt=""
               className="relative top-80 left-50 z-10"
             />
-            <img src="/img/me2.png" alt="" className="bottom-15 relative" />
+            <img src="img/me2.png" alt="" className="bottom-15 relative" />
             <div className="bg-pink-500 w-90 h-0.5 bottom-15 relative"></div>
           </div>
         </div>
@@ -75,8 +75,8 @@ const Aboutme = () => {
             I am a citizen of both Togo and Nigeria
           </div>
         </div>
-        <img src="/img/Dots.png" alt="" className="left-235 bottom-60 relative " />
-        <img src="/img/logo2.png" alt="" className="left-266 bottom-60 relative " />
+        <img src="img/Dots.png" alt="" className="left-235 bottom-60 relative " />
+        <img src="img/logo2.png" alt="" className="left-266 bottom-60 relative " />
       </section>
     </div>
   );
