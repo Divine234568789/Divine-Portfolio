@@ -21,7 +21,7 @@ function Navbar() {
     <div className="">
       <div className="flex justify-between w-full items-center  p-5">
         <div className="flex">
-          <img src="img/Logo.png" alt="" height={15} width={20} />
+          <img src="public/img/Logo.png" alt="" height={15} width={20} />
           <span className=" font-bold text-2xl">Divine</span>
         </div>
         <div className="nav-links pointer-events-auto">
