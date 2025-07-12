@@ -1,6 +1,7 @@
 import { contacts } from "./data";
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import toast from "react-hot-toast";
 
 const Contact = () => {
   const form = useRef();
@@ -14,27 +15,24 @@ const Contact = () => {
       })
       .then(
         () => {
-          console.log("SUCCESS!");
+          toast.success("Message sent successfully!");
+          form.current.reset();
         },
-        (error) => {
-          console.log("FAILED...", error.text);
+        () => {
+          toast.error("Failed to send message. Please try again later.");
         }
       );
   };
 
   return (
     <div className="flex flex-col lg:flex-row items-center justify-between gap-10 px-4 sm:px-6 md:px-10 lg:px-20 py-10 w-full max-w-screen-xl mx-auto">
-      {/* Contact Info */}
       <div className="w-full lg:w-1/2">
         <h4 className="font-bold text-2xl md:text-3xl mb-6 text-center lg:text-left">
           Contact Info
         </h4>
         <div className="flex flex-col gap-6">
           {contacts.map((contact) => (
-            <div
-              key={contact.label}
-              className="flex items-center gap-4 flex-wrap"
-            >
+            <div key={contact.label} className="flex items-center gap-4 ">
               <div className="flex items-center justify-center bg-gray-700 p-4 w-14 h-14 rounded-2xl shrink-0">
                 <img
                   src={contact.Image}
@@ -51,7 +49,6 @@ const Contact = () => {
         </div>
       </div>
 
-      {/* Contact Form */}
       <div className="w-full lg:w-1/2 bg-gray-800 rounded-2xl p-6 sm:p-8 md:p-10">
         <h2 className="text-2xl sm:text-3xl font-bold mb-6 text-center lg:text-left">
           Let's work <span className="text-gray-400">together.</span>
@@ -86,7 +83,7 @@ const Contact = () => {
           </div>
           <button
             type="submit"
-            className="w-full bg-pink-500 text-white font-medium py-3 rounded-md hover:bg-pink-600 transition-colors"
+            className="w-full bg-pink-500 text-white font-medium py-3 hover:cursor-pointer rounded-md hover:bg-pink-600 transition-colors"
           >
             Send Message
           </button>

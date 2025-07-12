@@ -4,6 +4,7 @@ import Aboutme from "./pages/Aboutme";
 import Contact from "./pages/Contact";
 import { Route, Routes } from "react-router";
 import Projects from "./pages/Projects";
+import { Toaster } from "react-hot-toast";
 const App = () => {
   return (
     <div>
@@ -14,6 +15,7 @@ const App = () => {
         <Route path="/Contact" element={<Contact />} />
         <Route path="/Projects" element={<Projects />} />
       </Routes>
+      <Toaster position="top-center" reverseOrder={false} />
     </div>
   );
 };

@@ -21,9 +21,13 @@ const Aboutme = () => {
               </p>
               <p>
                 Transforming my creativity and knowledge into a website has been
-                my passion for over a year. I have been helping various clients
-                to establish their presence online. I always strive to learn
-                about the newest technologies and frameworks.
+                my passion for over a year. I always strive to learn about the
+                newest technologies and frameworks.
+              </p>
+              <p>
+                I’m always looking for new opportunities to grow and improve my
+                skills. If you have a project in mind or just want to say hi,
+                feel free to reach out!
               </p>
             </div>
           </div>
